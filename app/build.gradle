@@ -22,7 +22,7 @@ android {
     }
 }
 
-def butterKnife = '8.5.1'
+def butterKnife = '10.1.0'
 def dagger2 = '2.20'
 def retrofit = '2.5.0'
 def room_version = "2.1.0-alpha07"
