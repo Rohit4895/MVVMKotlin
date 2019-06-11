@@ -1,10 +1,7 @@
-package com.demo.mvvmframework.LocalRepository
+package com.demo.mvvmframework.localrepository
 
 import android.app.Application
-import android.content.Context
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import com.demo.mvvmframework.Utils.AppExecutor
+import com.demo.mvvmframework.utils.AppExecutor
 import com.demo.mvvmframework.database.AppDatabase
 import com.demo.sampleappchallenge.database.dao.databasemodels.Campaign
 

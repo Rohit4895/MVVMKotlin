@@ -1,9 +1,9 @@
-package com.demo.mvvmframework.RemoteRepository
+package com.demo.mvvmframework.remoterepository
 
 import com.clevertrap.basicsetupkotlin.retrofit.RestClient
 import com.demo.mvvmframework.retrofit.RetrofitCallback
 import com.demo.mvvmframework.retrofit.retrofitapi.ClientCampaignKickStarter
-import com.demo.mvvmframework.retrofit.retrofitrequests.campaignkickstarters.ResponseCampaignkickStarter
+import com.demo.mvvmframework.retrofit.retrofitrequestsresponse.campaignkickstarters.ResponseCampaignkickStarter
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

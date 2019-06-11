@@ -3,7 +3,7 @@ package com.demo.mvvmframework.retrofit
 
 import android.os.Environment
 import android.util.Log
-import com.demo.mvvmframework.Utils.AppExecutor
+import com.demo.mvvmframework.utils.AppExecutor
 
 import java.io.File
 import java.util.Calendar

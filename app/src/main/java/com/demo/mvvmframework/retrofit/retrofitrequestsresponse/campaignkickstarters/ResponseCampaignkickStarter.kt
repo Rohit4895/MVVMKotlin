@@ -1,7 +1,6 @@
-package com.demo.mvvmframework.retrofit.retrofitrequests.campaignkickstarters
+package com.demo.mvvmframework.retrofit.retrofitrequestsresponse.campaignkickstarters
 
 import com.google.gson.annotations.SerializedName
-import retrofit2.http.Field
 
 class ResponseCampaignkickStarter {
 

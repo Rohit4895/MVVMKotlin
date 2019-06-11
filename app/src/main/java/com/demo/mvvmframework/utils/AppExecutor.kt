@@ -1,4 +1,4 @@
-package com.demo.mvvmframework.Utils
+package com.demo.mvvmframework.utils
 
 import android.os.Handler
 import android.os.Looper

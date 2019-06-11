@@ -2,14 +2,12 @@ package com.demo.mvvmframework.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
-import com.demo.mvvmframework.LocalRepository.LocalRepoCampaign
-import com.demo.mvvmframework.RemoteRepository.RemoteRepoCampaigns
+import com.demo.mvvmframework.localrepository.LocalRepoCampaign
+import com.demo.mvvmframework.remoterepository.RemoteRepoCampaigns
 import com.demo.mvvmframework.database.AppDatabase
 import com.demo.mvvmframework.retrofit.ErrorMessage
 import com.demo.mvvmframework.retrofit.RetrofitCallback
-import com.demo.mvvmframework.retrofit.retrofitrequests.campaignkickstarters.ResponseCampaignkickStarter
+import com.demo.mvvmframework.retrofit.retrofitrequestsresponse.campaignkickstarters.ResponseCampaignkickStarter
 
 class VMHomeActivity(application: Application) : AndroidViewModel(application) {
 
