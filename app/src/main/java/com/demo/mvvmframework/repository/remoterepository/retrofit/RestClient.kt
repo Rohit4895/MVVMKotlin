@@ -1,7 +1,7 @@
 package com.clevertrap.basicsetupkotlin.retrofit
 
 import android.util.Log
-import com.demo.mvvmframework.retrofit.ErrorMessage
+import com.demo.mvvmframework.repository.remoterepository.retrofit.ErrorMessage
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.ResponseBody

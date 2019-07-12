@@ -1,6 +1,6 @@
 package com.clevertrap.basicsetupkotlin.retrofit
 
-import com.demo.mvvmframework.retrofit.LoggerFile
+import com.demo.mvvmframework.repository.remoterepository.retrofit.LoggerFile
 import java.io.IOException
 
 import okhttp3.Interceptor

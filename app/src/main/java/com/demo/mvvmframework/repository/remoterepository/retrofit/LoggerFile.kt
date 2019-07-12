@@ -1,4 +1,4 @@
-package com.demo.mvvmframework.retrofit
+package com.demo.mvvmframework.repository.remoterepository.retrofit
 
 
 import android.os.Environment

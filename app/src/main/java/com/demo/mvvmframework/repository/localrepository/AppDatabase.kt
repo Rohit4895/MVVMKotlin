@@ -1,11 +1,9 @@
-package com.demo.mvvmframework.database
+package com.demo.mvvmframework.repository.localrepository
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.demo.mvvmframework.database.dao.DAOCampaign
-import com.demo.sampleappchallenge.database.dao.databasemodels.Campaign
 
 @Database(entities = arrayOf(Campaign::class), version = 1)
 abstract class AppDatabase: RoomDatabase() {
